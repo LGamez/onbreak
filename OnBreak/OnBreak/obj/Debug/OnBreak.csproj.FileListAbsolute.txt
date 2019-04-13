@@ -1,0 +1,15 @@
+C:\Users\Alumnos\source\repos\OnBreak\OnBreak\bin\Debug\OnBreak.exe.config
+C:\Users\Alumnos\source\repos\OnBreak\OnBreak\bin\Debug\OnBreak.exe
+C:\Users\Alumnos\source\repos\OnBreak\OnBreak\bin\Debug\OnBreak.pdb
+C:\Users\Alumnos\source\repos\OnBreak\OnBreak\obj\Debug\OnBreak.csprojAssemblyReference.cache
+C:\Users\Alumnos\source\repos\OnBreak\OnBreak\obj\Debug\MainWindow.g.cs
+C:\Users\Alumnos\source\repos\OnBreak\OnBreak\obj\Debug\App.g.cs
+C:\Users\Alumnos\source\repos\OnBreak\OnBreak\obj\Debug\OnBreak_MarkupCompile.cache
+C:\Users\Alumnos\source\repos\OnBreak\OnBreak\obj\Debug\OnBreak_MarkupCompile.lref
+C:\Users\Alumnos\source\repos\OnBreak\OnBreak\obj\Debug\MainWindow.baml
+C:\Users\Alumnos\source\repos\OnBreak\OnBreak\obj\Debug\OnBreak.g.resources
+C:\Users\Alumnos\source\repos\OnBreak\OnBreak\obj\Debug\OnBreak.Properties.Resources.resources
+C:\Users\Alumnos\source\repos\OnBreak\OnBreak\obj\Debug\OnBreak.csproj.GenerateResource.cache
+C:\Users\Alumnos\source\repos\OnBreak\OnBreak\obj\Debug\OnBreak.csproj.CoreCompileInputs.cache
+C:\Users\Alumnos\source\repos\OnBreak\OnBreak\obj\Debug\OnBreak.exe
+C:\Users\Alumnos\source\repos\OnBreak\OnBreak\obj\Debug\OnBreak.pdb
