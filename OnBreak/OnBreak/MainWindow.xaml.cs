@@ -18,6 +18,7 @@ namespace OnBreak
     /// <summary>
     /// Lógica de interacción para MainWindow.xaml
     /// </summary>
+    /// /sdfsdfs
     public partial class MainWindow : Window
     {
         public MainWindow()
