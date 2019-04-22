@@ -1,33 +1,38 @@
-﻿<Window x:Class="OnBreak.MainWindow"
+﻿<Controls:MetroWindow x:Class="OnBreak.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:OnBreak"
-        mc:Ignorable="d" FontSize="18"
-        Title="OnBreak" Height="450" Width="800">
-    <Grid>
+        xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
+        mc:Ignorable="d"
+        Title="OnBreak" Height="353.119" Width="724.849">
+    <Grid  x:Name="Container" RenderTransformOrigin="0.5,0.5" OpacityMask="White" Background="#FFFFFF">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="20" />
-            <ColumnDefinition Width="auto" />
-            <ColumnDefinition Width="auto" />
-            <ColumnDefinition Width="auto" />
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="20" />
+            <ColumnDefinition Width="19*"/>
+            <ColumnDefinition Width="32*"/>
+            <ColumnDefinition Width="53*"/>
+            <ColumnDefinition Width="80*"/>
+            <ColumnDefinition Width="533*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="20" />
-            <RowDefinition Height="auto" />
-            <RowDefinition Height="auto" />
-            <RowDefinition Height="auto" />
-            <RowDefinition Height="auto" />
-            <RowDefinition Height="*" />
-            <RowDefinition Height="20" />
+            <RowDefinition Height="82*"/>
+            <RowDefinition Height="79*"/>
         </Grid.RowDefinitions>
+        <Grid.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform/>
+                <SkewTransform/>
+                <RotateTransform Angle="0.055"/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </Grid.RenderTransform>
+        <Image Margin="73,55,260,42" Source="logo_transparent_background.png" Stretch="Fill" Grid.RowSpan="2" Grid.Column="4"/>
+        <Button Style="{StaticResource AccentedSquareButtonStyle}" Content="Listado de Clientes" HorizontalAlignment="Left" Height="76" Margin="257,55,0,0" VerticalAlignment="Top" Width="238" Grid.Column="4" Click="Button_Click_2"/>
+        <Button Style="{StaticResource AccentedSquareButtonStyle}" Content="Administración de Clientes" HorizontalAlignment="Left" Height="76" Margin="18,55,0,0" VerticalAlignment="Top" Width="238" Click="Button_Click" Grid.ColumnSpan="4" Grid.Column="1"/>
+        <Button Style="{StaticResource AccentedSquareButtonStyle}" Content="Administracion de Contratos" HorizontalAlignment="Left" Height="76" Margin="18,23,0,0" VerticalAlignment="Top" Width="238" Click="Button_Click" Grid.Row="1" Grid.ColumnSpan="4" Grid.Column="1"/>
+        <Button Style="{StaticResource AccentedSquareButtonStyle}" Content="Listados de contratos" HorizontalAlignment="Left" Height="76" Margin="257,23,0,0" VerticalAlignment="Top" Width="238" Grid.Row="1" Grid.Column="4"/>
+        <Button Style="{DynamicResource MahApps.Metro.Styles.MetroCircleButtonStyle}" Content="&#xD;&#xA;" HorizontalAlignment="Left" Margin="487,114,0,0" Grid.Row="1" VerticalAlignment="Top" Width="36" Click="Button_Click_1" Grid.Column="4" Height="34" RenderTransformOrigin="2.059,0.619"/>
 
-        <TextBlock Grid.Column="1" Grid.Row="1" Text="Título"
-                   FontSize="30" Margin="0,0,10,10" Grid.ColumnSpan="2"/>
-        <TextBlock Grid.Column="1" Grid.Row="2" Text="Subtítulo" 
-                   FontSize="12" FontWeight="ExtraLight"/>
     </Grid>
-</Window>
+</Controls:MetroWindow>

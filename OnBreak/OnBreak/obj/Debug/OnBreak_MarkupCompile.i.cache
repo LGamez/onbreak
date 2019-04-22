@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Duoc\SEM 03\DESARROLLO SOFTWARE DE ESCRITORIO Y GESTIÓN\Trabajos\onbreak\OnBreak\OnBreak\obj\Debug\
+C:\Users\ljgam\source\repos\OnBreak\OnBreak\obj\Debug\
 OnBreak
 none
 false
 DEBUG;TRACE
-D:\Duoc\SEM 03\DESARROLLO SOFTWARE DE ESCRITORIO Y GESTIÓN\Trabajos\onbreak\OnBreak\OnBreak\App.xaml
-3-1260861683
+C:\Users\ljgam\source\repos\OnBreak\OnBreak\App.xaml
+41071350868
 
-9-1796675625
-19-259897733
-MainWindow.xaml;Resources\Icons.xaml;Resources\IconsNonShared.xaml;
+10-1038132927
+161094975935
+ListadoCliente.xaml;MainWindow.xaml;Window1.xaml;Window2.xaml;
 
 True
 

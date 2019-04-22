@@ -17,31 +17,18 @@ using System.Windows.Shapes;
 namespace OnBreak
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for ListadoCliente.xaml
     /// </summary>
-    public partial class MainWindow : MetroWindow
+    public partial class ListadoCliente : MetroWindow
     {
-        public MainWindow()
-        {
+        public ListadoCliente() {
             InitializeComponent();
-        }
+        } 
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Window1 win1 = new Window1();
-            win1.Show();
-            this.Close();
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            Container.Background = Container.Background.Equals(Brushes.Black) ? Brushes.White : Brushes.Black;
-        }
-
-        private void Button_Click_2(object sender, RoutedEventArgs e)
-        {
-            ListadoCliente listadoCliente = new ListadoCliente();
-            listadoCliente.Show();
+            MainWindow mainWindow = new MainWindow();
+            mainWindow.Show();
             this.Close();
         }
     }
